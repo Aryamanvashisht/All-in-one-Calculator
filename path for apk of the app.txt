@@ -1,0 +1,2 @@
+app apk path:
+C:\Users\Aryaman\AndroidStudioProjects\AllinoneCalculator\app\build\outputs\apk\debug

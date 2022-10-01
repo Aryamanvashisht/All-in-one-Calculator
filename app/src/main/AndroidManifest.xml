@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.arya.allinonecalculator">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AllInOneCalculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".AboutApp"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Transition"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HistoryOfCalc"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CalculateTemp"
+            android:exported="false"
+            android:parentActivityName=".UnitConverter" />
+        <activity
+            android:name=".CalculateWeight"
+            android:exported="false"
+            android:parentActivityName=".UnitConverter" />
+        <activity
+            android:name=".CalculateSpeed"
+            android:exported="false"
+            android:parentActivityName=".UnitConverter" />
+        <activity
+            android:name=".CalculateVolume"
+            android:exported="false"
+            android:parentActivityName=".UnitConverter" />
+        <activity
+            android:name=".CalculateArea"
+            android:exported="false"
+            android:parentActivityName=".UnitConverter" />
+        <activity
+            android:name=".CalculateLength"
+            android:exported="false"
+            android:parentActivityName=".UnitConverter"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".UnitConverter"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Mathsfunctions"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+    </application>
+
+</manifest>
